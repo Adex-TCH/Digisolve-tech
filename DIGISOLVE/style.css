@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 5px;
+    padding: 17px;
+    display: flex;
+    justify-content: center;
+    background-color: saddlebrown;
+}
+
+nav li {
+    margin-right: 20px;
+    text-decoration: none;
+}
+nav a{
+    text-decoration: none;
+    font: 200;
+    font-size: large;
+    font-family: Arial;
+    padding: 70px;
+    color: #f2f2f2;
+}
+a:hover{
+    transition: o.4s;
+    color: black;
+}
+
+div{
+    background: url(pexels-jessbaileydesign-1097930.jpg);
+}
+.hero {
+    background-image: linear-gradient(to bottom, #1d1c17c1, #916324);
+    padding: 100px;
+    text-align: center;
+}
+.hero .button{
+    color: black;
+    background: #fff;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.services {
+    padding: 50px;
+}
+
+.services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.services li {
+    margin-bottom: 20px;
+}
+
+.services h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
